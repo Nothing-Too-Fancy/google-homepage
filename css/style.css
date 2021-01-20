@@ -42,5 +42,26 @@ html {
     border-color: rgb(66, 133, 244);
     font-weight: bold;
 }
-
+.logo {
+    display: block;
+    margin-top: 68px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search {
+    display: flex;
+    margin-top: 20px;
+}
+#searchbar {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    width: 450px;
+    height: 34px;
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 2px 2px 8px lightgrey;
+}
 
