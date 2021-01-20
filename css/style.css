@@ -3,11 +3,10 @@ html {
 }
 .header {
     display: flex;
-    align-items: center;
 }
 .header-left {
     display: flex;
-
+    align-items: center;
 }
 .header-left a {
     text-decoration: none;
@@ -39,6 +38,7 @@ html {
     background: linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
     color: white;
     height: 30px;
+    border-radius: 2px;
     border-color: rgb(66, 133, 244);
     font-weight: bold;
 }
