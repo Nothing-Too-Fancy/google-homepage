@@ -51,6 +51,7 @@ html {
 .search {
     display: flex;
     margin-top: 20px;
+    flex-direction: column;
 }
 #searchbar {
     font-size: 16px;
@@ -63,5 +64,17 @@ html {
     border-radius: 20px;
     background: transparent;
     box-shadow: 2px 2px 8px lightgrey;
+}
+.buttonbox {
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search .searchbutton {
+    margin-right: 5px;
+}
+.search .luckybutton {
+    margin-left: 5px;
 }
 
