@@ -8,13 +8,15 @@ html {
     display: flex;
     align-items: center;
 }
-.header-left a {
+.header a {
     text-decoration: none;
-    padding-left: 16px;
     font-size: 13px;
     color: black;
 }
-.header-left a:hover{
+.header-left a {
+    padding-left: 16px;
+}
+.header a:hover{
     text-decoration: underline;
 }
 .header-right {
@@ -23,15 +25,36 @@ html {
     align-items: center;
 }
 .header-right a {
-    text-decoration: none;
     padding-right: 16px;
-    font-size: 13px;
-    color: black;
 }
 .header-right a:hover {
     text-decoration: underline;
 }
 .header-right form {
+    padding-right: 16px;
+}
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+.footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.footer a:hover{
+    text-decoration: underline;
+
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+.footer-left a {
+    padding-left: 16px;
+}
+.footer-right a {
     padding-right: 16px;
 }
 .signin {
