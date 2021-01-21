@@ -44,7 +44,7 @@ html {
 }
 .logo {
     display: block;
-    margin-top: 68px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -59,7 +59,7 @@ html {
     margin-right: auto;
     padding-left: 20px;
     width: 450px;
-    height: 34px;
+    height: 38px;
     border: none;
     border-radius: 20px;
     background: transparent;
@@ -71,10 +71,24 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
-.search .searchbutton {
+.buttonbox .buttons {
+    background: rgba(184, 184, 184, 0.1);
+    color: rgba(0, 0, 0, 0.7);
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 36px;
+    font-size: 14px;
+    padding: 0 16px;
+    text-align: center;
+}
+.buttonbox .buttons:hover {
+    border: 2px solid rgba(184, 184, 184, 0.2);
+    color: rgba(0, 0, 0, 0.85);
+}
+.buttonbox #searchbutton {
     margin-right: 5px;
 }
-.search .luckybutton {
+.buttonbox #luckybutton {
     margin-left: 5px;
 }
 
