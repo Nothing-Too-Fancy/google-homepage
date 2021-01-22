@@ -1,8 +1,12 @@
-html {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
 }
 .header {
     display: flex;
+    margin-top: 15px;
+    margin-left:10px;
 }
 .header-left {
     display: flex;
@@ -11,10 +15,10 @@ html {
 .header a {
     text-decoration: none;
     font-size: 13px;
-    color: black;
+    color: rgba(0, 0, 0, 0.75);
 }
 .header-left a {
-    padding-left: 16px;
+    padding-left: 18px;
 }
 .header a:hover{
     text-decoration: underline;
@@ -27,21 +31,26 @@ html {
 .header-right a {
     padding-right: 16px;
 }
-.header-right a:hover {
-    text-decoration: underline;
-}
 .header-right form {
     padding-right: 16px;
 }
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -40px;
+}
 .footer {
     display: flex;
-    position: fixed;
-    bottom: 0;
+}
+.footer-background {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.footer, .push {
+    height: 40px;
 }
 .footer a {
     text-decoration: none;
-    font-size: 15px;
-    color: black;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
 }
 .footer a:hover{
     text-decoration: underline;
@@ -52,28 +61,34 @@ html {
     align-items: center;
 }
 .footer-left a {
-    padding-left: 16px;
+    padding-left: 30px;
+}
+.footer-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 .footer-right a {
-    padding-right: 16px;
+    padding-right: 30px;
 }
 .signin {
     background: linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
     color: white;
     height: 30px;
+    padding: 0 15px;
     border-radius: 2px;
-    border-color: rgb(66, 133, 244);
+    border: none;
     font-weight: bold;
 }
 .logo {
     display: block;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
 }
 .search {
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     flex-direction: column;
 }
 #searchbar {
@@ -82,10 +97,12 @@ html {
     margin-right: auto;
     padding-left: 20px;
     width: 450px;
-    height: 38px;
-    border: none;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     background: transparent;
+}
+#searchbar:hover{
     box-shadow: 2px 2px 8px lightgrey;
 }
 .buttonbox {
